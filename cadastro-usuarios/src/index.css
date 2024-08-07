@@ -1,0 +1,22 @@
+:root {
+  --cor-branca: #FFF;
+  --cor-borda: #CDCDCD;
+  --cor-texto: #333;
+  --cor-card: rgba(52, 18, 73, 0.85);
+  --cor-botao: #7B4EB8;
+  --cor-shadow: #302937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(58, 18, 111, 1) 0%, rgba(61, 40, 83, 1) 50%);
+  font-family: 'Poppins', sans-serif;
+  color: var(--cor-branca)
+}
